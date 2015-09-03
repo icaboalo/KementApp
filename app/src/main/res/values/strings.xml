@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kement</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    //hints
+    <string name="height_input_hint">Height (cm)</string>
+    <string name="weight_input_hint">Weight (g)</string>
+
+    //buttons
+    <string name="imc_button">Calculo IMC</string>
+
+    <string name="title_activity_imc">IMC</string>
+    <string name="title_activity_fat">fat</string>
+    <string name="title_activity_woman">Woman</string>
+
+    <string name="alertDialog_Title">Primer Uso...</string>
+    <string name="alertDialog_Message">Ingresa tus datos completos y oprime el boton para el resultado.
+
+    Para borrar los resultados deja presionado el boton...</string>
+    <string name="height_input_error">Enter a valid Height</string>
+    <string name="web_page_logo_content_description">web_page_logo</string>
+    <string name="waist_input_hint">Waist (cm)</string>
+    <string name="neck_input_hint">Neck (cm)</string>
+    <string name="hip_input_hint">Hip (cm)</string>
+    <string name="sex">Sex:</string>
+    <string name="man">Man</string>
+    <string name="woman">Woman</string>
+
+    <string-array name="tabs">
+        <item>IMC</item>
+        <item>Fat</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.icaboalo.kement.FatCalculatorActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"/>
+
+    <fragment
+        android:id="@+id/fat_fragment_calculator"
+        android:name="com.icaboalo.kement.FragmentFatCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        tools:layout="@layout/fragment_fat_calculator"/>
+
+
+</LinearLayout>
